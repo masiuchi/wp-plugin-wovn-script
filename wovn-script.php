@@ -43,7 +43,7 @@ if (is_admin()) {
       echo '<div class="wrap">';
       echo '  <h1>WOVN Script setting</h1>';
       echo '  <form method="post" action="options.php">';
-      echo      settings_fields('wovn-script');
+                settings_fields('wovn-script');
                 do_settings_sections('wovn-script');
       echo '    <table class="form-table">';
       echo '      <tr>';
