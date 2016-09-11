@@ -4,7 +4,7 @@
 Plugin Name: WOVN Script
 Plugin URI:  https://github.com/masiuchi/wp-plugin-wovn-script
 Description: Insert WOVN.io script tag to HTML.
-Version:     0.01
+Version:     0.0.1
 Author:      Masahiro Iuchi
 Author URI:  https://github.com/masiuchi
 License:     GPL2
