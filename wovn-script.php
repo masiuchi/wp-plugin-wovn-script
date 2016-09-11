@@ -66,6 +66,3 @@ register_uninstall_hook(__FILE__, 'remove_wovn_script_token');
 function remove_wovn_script_token () {
   delete_option('wovn_script_token');
 };
-
-?>
-
