@@ -48,7 +48,10 @@ if (is_admin()) {
       echo '    <table class="form-table">';
       echo '      <tr>';
       echo '        <th scope="row"><label for="wovn-script-token">Token</label></th>';
-      echo '        <td><input id="wovn-script-token" type="text" name="wovn_script_token" value="' . esc_attr(get_option('wovn_script_token')) . '" /></td>';
+      echo '        <td>';
+      echo '          <input id="wovn-script-token" type="text" name="wovn_script_token" value="' . esc_attr(get_option('wovn_script_token')) . '" />';
+      echo '          <p>You can get your Token from <a href="https://wovn.io" target="_blank">WOVN.io</a>.</p>';
+      echo '        </td>';
       echo '      </tr>';
       echo '    </table>';
       echo      submit_button();
